@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+    
 }
 body {
-    background-color: #4D9DCB;
+    background-color: #add8e6;
+    color: #333;
 }
 main {
     display: inline-block;
@@ -46,7 +48,7 @@ div.top-logo > h1 {
     display: inline-block;
 }
     li {       
-        background-color:#34ace0;
+        background-color:#bbecf8;
         list-style-type: none;
         position: relative;
         width: 250px;
@@ -54,11 +56,12 @@ div.top-logo > h1 {
         padding: 5px;
     }
     li:hover {
-        box-shadow: 0 0 3px 0px #258ebb;
-        color: white;
+        box-shadow: inset 3px 0 0 0  #258ebb;
+        color: #0F5298;
+
     }
     li:nth-of-type(even) {
-        background-color: #258ebb;
+        background-color: #d1f3fc;
     }
     li > img {
         width: 20px;
